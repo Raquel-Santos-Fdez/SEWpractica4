@@ -1,0 +1,15 @@
+
+header {
+    background-color: lightskyblue;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px 5px;
+}
+
+body{
+    background-color:#E3F2FD;
+}
+
+h2{
+    text-decoration:underline;
+}

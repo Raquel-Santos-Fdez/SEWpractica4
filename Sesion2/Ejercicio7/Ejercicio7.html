@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="Ejercicio7.css" />
+    <script src="Ejercicio7.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 7</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Adopta tu mascota</h1>
+    </header>
+
+    <p>
+    <input type="button" title="Modificar" id="Modificar" value="GATOS" onclick="acog.modificar()" />
+    </P>
+
+    <h2>Perros</h2>
+    <input type="button" title="Mostrar" id="Mperro" value="▼" onclick="acog.mostrarPerros()" />
+    <input type="button" title="Ocultar" id="Operro" value="▲" onclick="acog.ocultarPerros()" />
+
+    <p id="parrafoPerros">
+        Nuestro objetivo es que los animales estén el menor tiempo posible en el albergue
+        por lo tanto si estas pensando aumentar la familia animal, recuerda: !ADOPTA, NO COMPRES!
+
+    </p>
+    
+    <p id="pImagen">
+        <img id="p1" alt="Perro en adopcion" src="perro.jpg" />
+    </p>
+
+    <p>
+        <input class="botonAdd" type="button" id="Add" value="Añadir animal" onclick="acog.add()" />
+        <input class="botonRem" type="button" id="Eliminar" value="Eliminar animal" onclick="acog.remove()" />
+
+    </p>
+
+    <p id="parrafoAdd">
+
+    </p>
+
+    <table id="tablaPerros">
+        <tr>
+            <th>Nombre</th>
+            <th>Raza</th>
+            <th>Edad</th>
+
+        </tr>
+        <tr>
+            <td>Kira</td>
+            <td>Border collie</td>
+            <td>1 año</td>
+        </tr>
+        <tr>
+            <td>Tom</td>
+            <td>Beagle</td>
+            <td>5 años</td>
+        </tr>
+        <tr>
+            <td>Hassan</td>
+            <td>Pastor alemán</td>
+            <td>2 años</td>
+        </tr>
+    </table>
+
+    <input class="botonSum" type="button" id="Sumar" value="Sumar filas y columnas" onclick="acog.sumar()" />
+    <p id="parrafoSuma">
+
+    </p>
+
+</body>
+</html>

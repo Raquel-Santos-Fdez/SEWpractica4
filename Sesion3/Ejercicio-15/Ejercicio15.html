@@ -1,0 +1,39 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="Ejercicio15.css" />
+    <script src="Ejercicio15.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCrmEJuUDuT97pIVb-AULt0ikC6UqyFM14"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 15</title>
+</head>
+
+<body onload="e.mostrarTitulo()">
+
+    <header id="headerGeo">
+        <canvas id="canvas" width="600" height="150"></canvas>
+    </header>
+
+
+    <p>
+        <input type="file" id="botonCargar"  onchange="e.cargar(this.files)" />
+    </p>
+
+
+
+    <ul id="cFile"></ul>
+
+
+    <p>
+        <input type="button" value="Mostrar mapa" onclick="e.verMapa()" />
+    </p>
+
+    <p id="mapa">
+
+    </p>
+
+</body>
+</html>

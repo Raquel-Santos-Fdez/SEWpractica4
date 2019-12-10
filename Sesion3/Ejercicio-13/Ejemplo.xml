@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type= "text/xsl" href = "rutas.xsl"?>
+<rutas>
+
+<!-- Ruta 1 -->
+	
+	<ruta 
+		transporte="Bicicleta"
+		duracion="1 hora"
+		agencia="Nautalia"
+		descripcion="Los mejores restaurantes de Oviedo"
+		personas="Todos los públicos"
+		lugarInicio="Oviedo"
+		direccionInicio="Plaza de la Escandalera">
+    <nombre>Ruta Oviedo</nombre>
+    <tipo>Gastronómica</tipo>
+    <recomendacion>8</recomendacion>
+
+    <coordenadas>
+      <longitud>-5.8509005</longitud>
+      <latitud>43.3650481</latitud>
+      <altitud unidades="metros">231</altitud>
+    </coordenadas>
+
+    <referencias>
+      <referencia url="https://www.turismoasturias.es"></referencia>
+      <referencia url="http://www.infoasturias.com"></referencia>
+      <referencia url="http://www.asturias.es"></referencia>
+    </referencias>
+		
+	<hitos>
+		<hito hNombre="Basílica de San Juan"
+			dHito="Gastronomía">
+
+    <distancia unidades ="kilometros">0</distancia>
+
+    <coordenadas>
+		<longitud>-5.8509005</longitud>
+		<latitud>43.3650481</latitud>
+		<altitud unidades="metros">231</altitud>
+    </coordenadas>
+
+      <fotos>
+        <foto ubicacion="multimedia/foto1.jpg"></foto>
+      </fotos>
+    </hito>
+
+    <hito hNombre="Catedral de Oviedo"
+     dHito="Gastronomía" >
+      
+      <distancia unidades ="kilometros">1.1</distancia>
+
+      <coordenadas>
+        <longitud>-5.8432939</longitud>
+        <latitud>43.3625223</latitud>
+        <altitud unidades="metros">243</altitud>
+      </coordenadas>
+      
+      <fotos>
+        <foto ubicacion="multimedia/foto2.jpg"></foto>
+      </fotos>
+    </hito>
+
+    <hito hNombre="Mercado el Fontán"
+     dHito="Gastronomía">
+      
+      <distancia unidades ="kilometros">0.350</distancia>
+
+      <coordenadas>
+        <longitud>-5.8456924</longitud>
+        <latitud>43.3601629</latitud>
+        <altitud unidades="metros">237</altitud>
+      </coordenadas>
+
+      <fotos>
+        <foto ubicacion="multimedia/foto3.jpg"></foto>
+      </fotos>
+
+      <videos>
+        <video ubicacion ="https://www.youtube.com/watch?v=Pbaa54a9l6Q" />
+      </videos>
+    </hito>
+	</hitos>	
+	</ruta>
+
+
+<!-- Ruta 2 -->
+	<ruta 
+		transporte="Coche"
+		duracion="5 hora"
+		agencia="Nautalia"
+		descripcion="El corazón verde de Asturias"
+		personas="Mayores de 16 años"
+		lugarInicio="Llanes"
+		direccionInicio="Parking de los lagos">
+    <nombre>Ruta Costera</nombre>
+    <tipo>Pisajística y cultutal</tipo>
+    <recomendacion>8</recomendacion>
+
+    <coordenadas>
+      <longitud>-4.7530835</longitud>
+      <latitud>43.4211205</latitud>
+      <altitud unidades="metros">9</altitud>
+    </coordenadas>
+
+    <referencias>
+      <referencia url="https://www.turismoasturias.es"></referencia>
+      <referencia url="http://www.infoasturias.com"></referencia>
+      <referencia url="http://www.asturias.es"></referencia>
+    </referencias>
+
+    <hitos>
+	
+		<hito hNombre="Llanes"
+			dHito="Paisajes y playas">
+      
+      <distancia unidades ="kilometros">1</distancia>
+
+      <coordenadas>
+        <longitud>-4.7530835</longitud>
+        <latitud>43.4211205</latitud>
+        <altitud unidades="metros">9</altitud>
+      </coordenadas>
+
+      <fotos>
+        <foto ubicacion="multimedia/foto4.jpg"></foto>
+      </fotos>
+      
+      <videos>
+        <video ubicacion ="https://www.youtube.com/watch?v=Pbaa54a9l6Q" />
+      </videos>
+      
+      </hito>
+	  
+      <hito hNombre="Cabo Peñas"
+       dHito="Paisajes y playas" >
+
+        <distancia unidades ="kilometros">110</distancia>
+
+        <coordenadas>
+          <longitud>-5.9123793</longitud>
+          <latitud>43.5617523</latitud>
+          <altitud unidades="metros">25</altitud>
+        </coordenadas>
+
+        <fotos>
+          <foto ubicacion="multimedia/foto5.jpg"></foto>
+        </fotos>
+        
+      </hito>
+
+      <hito hNombre="Tapia"
+       dHito="Paisajes y playas" >
+
+        <distancia unidades ="kilometros">111</distancia>
+
+        <coordenadas>
+          <longitud>-6.9436488</longitud>
+          <latitud>43.5692581</latitud>
+          <altitud unidades="metros">29</altitud>
+        </coordenadas>
+
+        <fotos>
+          <foto ubicacion="multimedia/foto6.jpg"></foto>
+        </fotos>
+      </hito>
+
+      
+    </hitos>	
+		
+	</ruta>
+	
+	<!-- Ruta 3 -->
+	<ruta 
+		transporte="Bicicleta"
+		duracion="1 hora"
+		agencia="Nautalia"
+		descripcion="Los mejores restaurantes de Oviedo"
+		personas="Todos los públicos"
+		lugarInicio="Gijón"
+		direccionInicio="Plaza de la Escandalera">
+    <nombre>Ruta Gijon</nombre>
+    <tipo>Gastronómica</tipo>
+    <recomendacion>8</recomendacion>
+
+    <coordenadas>
+      <longitud>-5.6630408</longitud>
+      <latitud>43.54908</latitud>
+      <altitud unidades="metros">22</altitud>
+    </coordenadas>
+    
+    <referencias>
+      <referencia url="https://www.turismoasturias.es"></referencia>
+      <referencia url="http://www.infoasturias.com"></referencia>
+      <referencia url="http://www.asturias.es"></referencia>
+    </referencias>
+		
+	<hitos>
+		<hito hNombre="Elogio del Horizonte"
+			dHito="Gastronnomía">
+
+      <distancia unidades ="kilometros">0</distancia>
+
+      <coordenadas>
+        <longitud>-5.6630408</longitud>
+        <latitud>43.54908</latitud>
+        <altitud unidades="metros">22</altitud>
+      </coordenadas>
+
+      <fotos>
+        <foto ubicacion="multimedia/foto1.jpg"></foto>
+      </fotos>
+    </hito>
+
+    <hito hNombre="Parque de los pericones"
+     dHito="Gastronnomía">
+      
+      <distancia unidades ="kilometros">3.4</distancia>
+
+      <coordenadas>
+        <longitud>-5.65714547</longitud>
+        <latitud>43.52428985</latitud>
+        <altitud unidades="metros">45</altitud>
+      </coordenadas>
+
+      <fotos>
+        <foto ubicacion="multimedia/foto1.jpg"></foto>
+      </fotos>
+    </hito>
+
+    <hito hNombre="Monumento a la madre del Emigrante"
+     dHito="Gastronnomía">
+
+      <distancia unidades ="kilometros">3.3</distancia>
+
+      <coordenadas>
+        <longitud>-5.6410732</longitud>
+        <latitud>43.5483539</latitud>
+        <altitud unidades="metros">1</altitud>
+      </coordenadas>
+
+      <fotos>
+        <foto ubicacion="multimedia/foto1.jpg"></foto>
+      </fotos>
+
+      <videos>
+        <video ubicacion ="https://www.youtube.com/watch?v=Pbaa54a9l6Q" />
+      </videos>
+      
+    </hito>
+	</hitos>	
+	</ruta>
+
+	<!-- Ruta 4 -->
+	<ruta 
+		transporte="Autobús"
+		duracion="1 hora"
+		agencia="Nautalia"
+		descripcion="Los mejores restaurantes de Oviedo"
+		personas="Todos los públicos"
+		lugarInicio="Cangas de Onis"
+		direccionInicio="Plaza de la Escandalera">
+    <nombre>Ruta Covadonga y Picos de Europa</nombre>
+    <tipo>Turística</tipo>
+    <recomendacion>8</recomendacion>
+
+    <coordenadas>
+      <longitud>-5.13165700</longitud>
+      <latitud>43.3503938</latitud>
+      <altitud unidades="metros">61</altitud>
+    </coordenadas>
+
+
+    <referencias>
+      <referencia url="https://www.turismoasturias.es"></referencia>
+      <referencia url="http://www.infoasturias.com"></referencia>
+      <referencia url="http://www.asturias.es"></referencia>
+    </referencias>
+		
+	<hitos>
+		<hito hNombre="Puenre Romano"
+			dHito="Gastronomía">
+
+      <distancia unidades ="kilometros">0</distancia>
+
+      <coordenadas>
+        <longitud>-5.13165700</longitud>
+        <latitud>43.3503938</latitud>
+        <altitud unidades="metros">61</altitud>
+      </coordenadas>
+
+      <fotos>
+        <foto ubicacion="multimedia/foto1.jpg"></foto>
+      </fotos>
+      
+    </hito>
+
+    <hito hNombre="Lagos de Covadonga"
+     dHito="Gastronomía">
+
+      <distancia unidades ="kilometros">21.9</distancia>
+
+      <coordenadas>
+        <longitud>-4.9861479</longitud>
+        <latitud>43.269921</latitud>
+        <altitud unidades="metros">1135</altitud>
+      </coordenadas>
+
+      <fotos>
+        <foto ubicacion="multimedia/foto1.jpg"></foto>
+      </fotos>
+      
+    </hito>
+
+    <hito hNombre="Picos de Europa"
+     dHito="Gastronomía" >
+
+      <distancia unidades ="kilometros">71.1</distancia>
+
+      <coordenadas>
+        <longitud>-4.8327478</longitud>
+        <latitud>43.1896024</latitud>
+        <altitud unidades="metros">2143</altitud>
+      </coordenadas>
+
+
+      <fotos>
+        <foto ubicacion="multimedia/foto1.jpg"></foto>
+      </fotos>
+      
+      <videos>
+        <video ubicacion ="https://www.youtube.com/watch?v=Pbaa54a9l6Q" />
+      </videos>
+      
+    </hito>
+	</hitos>	
+	</ruta>
+	
+	<!-- Ruta 5 -->
+	<ruta 
+		transporte="Bicicleta"
+		duracion="1 hora"
+		agencia="Nautalia"
+		descripcion="Los mejores restaurantes de Oviedo"
+		personas="Todos los públicos"
+		lugarInicio="Avilés"
+		direccionInicio="El parque de Ferrera">
+
+    <nombre>Ruta por Avilés</nombre>
+    <tipo>Turística</tipo>
+    <recomendacion>8</recomendacion>
+
+    <coordenadas>
+      <longitud>-5.922652777</longitud>
+      <latitud>43.55264722</latitud>
+      <altitud unidades="metros">29</altitud>
+    </coordenadas>
+    
+    <referencias>
+      <referencia url="https://www.turismoasturias.es"></referencia>
+      <referencia url="http://www.infoasturias.com"></referencia>
+      <referencia url="http://www.asturias.es"></referencia>
+    </referencias>
+		
+	<hitos>
+		<hito hNombre="El parque de Ferrera"
+			dHito="Turística">
+
+      <distancia unidades ="kilometros">0</distancia>
+
+      <coordenadas>
+        <longitud>-5.922652777</longitud>
+        <latitud>43.55264722</latitud>
+        <altitud unidades="metros">29</altitud>
+      </coordenadas>
+
+      <fotos>
+        <foto ubicacion="multimedia/foto1.jpg"></foto>
+      </fotos>
+    </hito>
+	
+	<hito hNombre="Centro Cultural Internacional Oscar Niemeyer"
+     dHito="Gastronomía" >
+
+    <distancia unidades ="kilometros">1.9</distancia>
+
+    <coordenadas>
+      <longitud>-5.917348763</longitud>
+      <latitud>43.55714895</latitud>
+      <altitud unidades="metros">4</altitud>
+    </coordenadas>
+
+    <fotos>
+      <foto ubicacion="multimedia/foto1.jpg"></foto>
+    </fotos>
+
+    <videos>
+      <video ubicacion ="https://www.youtube.com/watch?v=Pbaa54a9l6Q" />
+    </videos>
+    
+    </hito>
+
+    <hito hNombre="Embalse de Trasona"
+     dHito="Gastronomía" >
+
+      <distancia unidades ="kilometros">5.8</distancia>
+
+      <coordenadas>
+        <longitud>-5.87842500</longitud>
+        <latitud>43.546513889</latitud>
+        <altitud unidades="metros">22</altitud>
+      </coordenadas>
+
+      <fotos>
+        <foto ubicacion="multimedia/foto1.jpg"></foto>
+      </fotos>
+    </hito>
+
+   
+	</hitos>	
+	</ruta>
+	
+</rutas>

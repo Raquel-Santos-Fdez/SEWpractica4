@@ -1,0 +1,15 @@
+
+header {
+    background-color: forestgreen;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 5px 5px;
+}
+
+body{
+    background-color:#BDECB6;
+}
+
+h2{
+    text-decoration:underline;
+}

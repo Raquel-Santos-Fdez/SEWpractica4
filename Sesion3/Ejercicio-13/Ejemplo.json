@@ -1,0 +1,37 @@
+{
+  "coord": {
+    "lon": -5.84,
+    "lat": 43.36
+  },
+  "weather": [
+    {
+      "id": 802,
+      "main": "Clouds",
+      "description": "nubes dispersas",
+      "icon": "03n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 11.8,
+    "pressure": 1023,
+    "humidity": 81,
+    "temp_min": 6.11,
+    "temp_max": 13.89
+  },
+  "visibility": 10000,
+  "wind": { "speed": 1 },
+  "clouds": { "all": 40 },
+  "dt": 1575748064,
+  "sys": {
+    "type": 1,
+    "id": 6388,
+    "country": "ES",
+    "sunrise": 1575704517,
+    "sunset": 1575737263
+  },
+  "timezone": 3600,
+  "id": 3114711,
+  "name": "Oviedo",
+  "cod": 200
+}
