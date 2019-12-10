@@ -1,0 +1,146 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="CalculadoraCientifica.css" />
+    <script src="CalculadoraCientifica.js"></script>
+    <title>Calculadora Científica</title>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <td colspan="5">
+                <input class="ventanaSol" type="text" id="resultado" readonly />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input class="mem" type="button" id="mrc" value="mrc" onclick="calculadoraCientifica.mostrarMemoria()" />
+            </td>
+            <td>
+                <input class="mem" type="button" id="m-" value="m-" onclick="calculadoraCientifica.restaMemoria()" />
+            </td>
+            <td>
+                <input class="mem" type="button" id="m+" value="m+" onclick="calculadoraCientifica.sumaMemoria()" />
+            </td>
+            <td>
+                <input class="num" type="button" id="masmenos" value="+/-" onclick="calculadoraCientifica.masmenos()" />
+            </td>
+            <td>
+                <input class="num" type="button" id="C" value="C" onclick="calculadoraCientifica.botonLimpiar()" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input class="num" type="button" id="exp2" value="x²" onclick="calculadoraCientifica.exponenteX2()" />
+            </td>
+            <td>
+                <input class="num" type="button" id="expy" value="xʸ" onclick="calculadoraCientifica.exponenteXY()" />
+            </td>
+            <td>
+                <input class="num" type="button" id="sin" value="sin" onclick="calculadoraCientifica.seno()" />
+            </td>
+            <td>
+                <input class="num" type="button" id="cos" value="cos" onclick="calculadoraCientifica.coseno()" />
+            </td>
+            <td>
+                <input class="num" type="button" id="tan" value="tan" onclick="calculadoraCientifica.tangente()" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input class="num" type="button" id="raiz" value="√" onclick="calculadoraCientifica.raiz()" />
+            </td>
+            <td>
+                <input class="num" type="button" id="exp10" value="10˟" onclick="calculadoraCientifica.exponente10()" />
+            </td>
+            <td>
+                <input class="num" type="button" id="log" value="log" onclick="calculadoraCientifica.logaritmo()" />
+            </td>
+            <td>
+                <input class="num" type="button" id="exp" value="e˟" onclick="calculadoraCientifica.exponenteE()" />
+            </td>
+            <td>
+                <input class="num" type="button" id="modulo" value="Mod" onclick="calculadoraCientifica.modulo()" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input class="num" type="button" id="pi" value="Π" onclick="calculadoraCientifica.pi()" />
+            </td>
+            <td>
+                <input class="num" type="button" id="siete" value="7" onclick="calculadoraCientifica.botonNumero(value)" />
+            </td>
+            <td>
+                <input class="num" type="button" id="ocho" value="8" onclick="calculadoraCientifica.botonNumero(value)" />
+            </td>
+            <td>
+                <input class="num" type="button" id="nueve" value="9" onclick="calculadoraCientifica.botonNumero(value)" />
+            </td>
+            <td>
+                <input class="operando" type="button" id="div" value="/" onclick="calculadoraCientifica.botonOperacion(value)" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input class="num" type="button" id="factorial" value="n!" onclick="calculadoraCientifica.factorial()" />
+            </td>
+            <td>
+                <input class="num" type="button" id="cuatro" value="4" onclick="calculadoraCientifica.botonNumero(value)" />
+            </td>
+            <td>
+                <input class="num" type="button" id="cinco" value="5" onclick="calculadoraCientifica.botonNumero(value)" />
+            </td>
+            <td>
+                <input class="num" type="button" id="seis" value="6" onclick="calculadoraCientifica.botonNumero(value)" />
+            </td>
+            <td>
+                <input class="operando" type="button" id="mult" value="*" onclick="calculadoraCientifica.botonOperacion(value)" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input class="num" type="button" id="cero" value="0" onclick="calculadoraCientifica.botonNumero(value)" />
+            </td>
+            <td>
+                <input class="num" type="button" id="uno" value="1" onclick="calculadoraCientifica.botonNumero(value)" />
+            </td>
+            <td>
+                <input class="num" type="button" id="dos" value="2" onclick="calculadoraCientifica.botonNumero(value)" />
+            </td>
+            <td>
+                <input class="num" type="button" id="tres" value="3" onclick="calculadoraCientifica.botonNumero(value)" />
+            </td>
+            <td>
+                <input class="operando" type="button" id="resta" value="-" onclick="calculadoraCientifica.botonOperacion(value)" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input class="num" type="button" id="p1" value="(" onclick="calculadoraCientifica.botonNumero(value)" />
+            </td>
+            <td>
+                <input class="num" type="button" id="p2" value=")" onclick="calculadoraCientifica.botonNumero(value)" />
+            </td>
+            <td>
+                <input class="num" type="button" id="punto" value="." onclick="calculadoraCientifica.botonNumero(value)" />
+            </td>
+
+            <td>
+                <input type="button" id="igual" value="=" onclick="calculadoraCientifica.operar()" />
+            </td>
+            <td>
+                <input class="operando" type="button" id="suma" value="+" onclick="calculadoraCientifica.botonOperacion(value)" />
+            </td>
+        </tr>
+    </table>
+    
+
+
+
+
+</body>
+</html>

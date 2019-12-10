@@ -1,0 +1,96 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="CalculadoraBasica.css" />
+    <script src="CalculadoraBasica.js"></script>
+    <title>Calculadora Básica</title>
+</head>
+
+<body>
+
+    <table>
+        <tr>
+            <td colspan="4">
+                <input class="ventanaSol" type="text" id="resultado" readonly />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input class="mem" type="button" id="mrc" value="mrc" onclick="calculadora.mostrarMemoria()" />
+            </td>
+            <td>
+                <input class="mem" type="button" id="m-" value="m-" onclick="calculadora.restaMemoria()" />
+            </td>
+            <td>
+                <input class="mem" type="button" id="m+" value="m+" onclick="calculadora.sumaMemoria()" />
+            </td>
+            <td>
+                <input class="operando" type="button" id="div" value="/" onclick="calculadora.botonOperacion(value)" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input class="num" type="button" id="siete" value="7" onclick="calculadora.botonNumero(value)" />
+            </td>
+            <td>
+                <input class="num" type="button" id="ocho" value="8" onclick="calculadora.botonNumero(value)" />
+            </td>
+            <td>
+                <input class="num" type="button" id="nueve" value="9" onclick="calculadora.botonNumero(value)" />
+            </td>
+            <td>
+                <input class="operando" type="button" id="mult" value="*" onclick="calculadora.botonOperacion(value)" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input class="num" type="button" id="cuatro" value="4" onclick="calculadora.botonNumero(value)" />
+            </td>
+            <td>
+                <input class="num" type="button" id="cinco" value="5" onclick="calculadora.botonNumero(value)" />
+            </td>
+            <td>
+                <input class="num" type="button" id="seis" value="6" onclick="calculadora.botonNumero(value)" />
+            </td>
+            <td>
+                <input class="operando" type="button" id="resta" value="-" onclick="calculadora.botonOperacion(value)" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input class="num" type="button" id="uno" value="1" onclick="calculadora.botonNumero(value)" />
+            </td>
+            <td>
+                <input class="num" type="button" id="dos" value="2" onclick="calculadora.botonNumero(value)" />
+            </td>
+            <td>
+                <input class="num" type="button" id="tres" value="3" onclick="calculadora.botonNumero(value)" />
+            </td>
+            <td>
+                <input class="operando" type="button" id="suma" value="+" onclick="calculadora.botonOperacion(value)" />
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input class="num" type="button" id="cero" value="0" onclick="calculadora.botonNumero(value)" />
+            </td>
+            <td>
+                <input class="num" type="button" id="punto" value="." onclick="calculadora.botonNumero(value)" />
+            </td>
+            <td>
+                <input class="num" type="button" id="C" value="C" onclick="calculadora.botonLimpiar()" />
+            </td>
+            <td>
+                <input type="button" id="igual" value="=" onclick="calculadora.operar()" />
+            </td>
+        </tr>
+    </table>
+    
+
+
+
+
+</body>
+</html>

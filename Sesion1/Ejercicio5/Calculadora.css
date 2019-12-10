@@ -1,0 +1,34 @@
+table {
+    background-color: darkslategrey;
+    text-align: center;
+    padding:14px;
+}
+
+.num{
+    color:black;
+
+}
+
+.operando{
+    color:black;
+    background-color:indianred;
+}
+
+.mem{
+    color:white;
+    background-color:grey;
+}
+
+.ventanaSol{
+    background-color:darkseagreen;
+}
+
+body{
+	font: 400 15px Tahoma, sans-serif;
+    line-height: 1.8;
+    color:black ;
+    background-color:lightblue;
+    text-align:center;
+    padding:4px;
+}
+    

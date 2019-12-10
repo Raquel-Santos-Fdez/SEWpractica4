@@ -1,0 +1,28 @@
+table {
+    background-color: white;
+    text-align: center;
+}
+
+td{
+    width:5%;
+}
+
+.num {
+    color: black;
+    font-weight: 700;
+    width: 20%;
+    text-align: center;
+}
+
+.letra {
+    width: 15%;
+    text-align: center;
+}
+
+body{
+	font: 400 15px Tahoma, sans-serif;
+    line-height: 1.8;
+    color:black ;
+    background-color:lightblue;
+}
+    
